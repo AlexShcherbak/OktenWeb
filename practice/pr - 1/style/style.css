@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin: 0;
 }
 
@@ -76,7 +81,9 @@ li {
 }
 
 .main__list {
-    width: 25%;
+    background-color: #F8F9FA;
+    width: 15%;
+    line-height: 1.3em;
     margin-top: 20px;
     border: 1px solid black;
 }
@@ -87,10 +94,12 @@ li {
 }
 
 .main__list ol {
+    padding: 0 5px 0 10px;
     counter-reset: item;
 }
 
 .main__list li {
+    margin: 0;
     display: block;
 }
 
