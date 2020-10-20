@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 1280px;
+    border: 1px solid red;
+    color: #fff;
+}
+
+p {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.m-0-auto {
+    margin: 0 auto;
+}
+
+.m-b-40 {
+    margin-bottom: 40px;
+}
+
+.m-b-80 {
+    margin-bottom: 80px;
+}
+
+.pd {
+    padding: 10px 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.f-dir {
+    flex-direction: column;
+}
+
+.js-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.js-sb {
+    justify-content: space-between;
+}
+
+.al-items {
+    align-items: flex-end;
+}
+
+.al-items-top {
+    align-items: flex-start;
+}
+
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-33 {
+    width: 33.33333%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-200p {
+    height: 200px;
+}
+
+.h-300p {
+    height: 300px;
+}
+
+.h-500p {
+    height: 500px;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-blue {
+    background-color: blue;
+}
