@@ -17,8 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="mega-block">
-      <change afterPath="$PROJECT_DIR$/practice/pr-3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/pr-3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/hw - 3/images/andrey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/hw - 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/hw - 3/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\homework\hw - 3\images" />
+      <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\homework\hw - 3\style" />
       <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\practice\pr-2" />
       <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\homework\hw - 1" />
       <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\practice\pr - 1" />
-      <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\image" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +80,11 @@
       <workItem from="1602780904552" duration="634000" />
       <workItem from="1602793263320" duration="636000" />
       <workItem from="1603137993519" duration="1911000" />
-      <workItem from="1603212802151" duration="6080000" />
+      <workItem from="1603212802151" duration="6111000" />
+      <workItem from="1603316969273" duration="1523000" />
+      <workItem from="1603356002130" duration="1748000" />
+      <workItem from="1603385445849" duration="5509000" />
+      <workItem from="1603485619189" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="update css">
       <created>1602709642251</created>
@@ -101,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603139823857</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mega-block">
+      <created>1603218891864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603218891864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +134,13 @@
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="tasks" />
+                      </list>
+                    </value>
+                  </entry>
                   <entry key="roots">
                     <value>
                       <list>
@@ -183,18 +203,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602707062751" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603139826937">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603218905682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603139826937" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602709724297">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603218905682" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603316988472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602709724297" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1602772897315">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603316988472" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603317317388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602772897315" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603317317388" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1602772685829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
