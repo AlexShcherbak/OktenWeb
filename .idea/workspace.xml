@@ -16,28 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="js basic">
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/andriivsky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/arsenyi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/avtobys.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/borispol.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/confirmed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/dinamo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/facebook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/kernes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/kiev.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/koronaskeptyk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/police.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/poroshenko.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/simmons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/teleskop-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/teleskop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/tramp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/images/vova.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/ukrpravda/style.css" afterDir="false" />
+    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="ukrpravda">
+      <change afterPath="$PROJECT_DIR$/js/practice/pr-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/practice/pr-2/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/homework/js-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/homework/js-1/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\js\homework" />
       <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\homework\hw - 3\images" />
       <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\homework\hw - 3\style" />
       <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\practice\pr-2" />
       <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\homework\hw - 1" />
-      <recent name="C:\Users\kytalpha\WebstormProjects\OktenWeb\practice\pr - 1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,6 +93,9 @@
       <workItem from="1603356002130" duration="1748000" />
       <workItem from="1603385445849" duration="5509000" />
       <workItem from="1603485619189" duration="519000" />
+      <workItem from="1603994003867" duration="5760000" />
+      <workItem from="1604045082379" duration="3593000" />
+      <workItem from="1604158270741" duration="8177000" />
     </task>
     <task id="LOCAL-00001" summary="update css">
       <created>1602709642251</created>
@@ -152,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603922959444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ukrpravda">
+      <created>1603923946588</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603923946588</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +217,8 @@
     <MESSAGE value="homework &amp; practice" />
     <MESSAGE value="mega-block" />
     <MESSAGE value="js basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="js basic" />
+    <MESSAGE value="ukrpravda" />
+    <option name="LAST_COMMIT_MESSAGE" value="ukrpravda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602706809110">
@@ -242,18 +237,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602707062751" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603922968481">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603923952934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603922968481" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603923952934" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603922907088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603922907088" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1603317317388">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604160176110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603317317388" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604160176110" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1602772685829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
