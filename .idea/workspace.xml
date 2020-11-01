@@ -16,12 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="ukrpravda">
+    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="1-10 tasks">
       <change afterPath="$PROJECT_DIR$/js/practice/pr-2/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/practice/pr-2/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/homework/js-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/homework/js-1/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/homework/js-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/homework/js-1/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,8 @@
       <workItem from="1603485619189" duration="519000" />
       <workItem from="1603994003867" duration="5760000" />
       <workItem from="1604045082379" duration="3593000" />
-      <workItem from="1604158270741" duration="8177000" />
+      <workItem from="1604158270741" duration="8349000" />
+      <workItem from="1604230326927" duration="7584000" />
     </task>
     <task id="LOCAL-00001" summary="update css">
       <created>1602709642251</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603923946588</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1-10 tasks">
+      <created>1604186101250</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604186101250</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +225,8 @@
     <MESSAGE value="mega-block" />
     <MESSAGE value="js basic" />
     <MESSAGE value="ukrpravda" />
-    <option name="LAST_COMMIT_MESSAGE" value="ukrpravda" />
+    <MESSAGE value="1-10 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-10 tasks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602706809110">
@@ -237,18 +245,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602707062751" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603923952934">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604186136095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603923952934" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603922907088">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604186136095" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604230407880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603922907088" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1604160176110">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604230407880" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604238113061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604160176110" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604238113061" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1602772685829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
