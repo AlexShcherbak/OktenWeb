@@ -16,11 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="1-10 tasks">
+    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="1homework">
+      <change afterPath="$PROJECT_DIR$/js/homework/js-2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/homework/js-2/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/practice/pr-2/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/practice/pr-2/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/homework/js-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/homework/js-1/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,8 @@
       <workItem from="1603994003867" duration="5760000" />
       <workItem from="1604045082379" duration="3593000" />
       <workItem from="1604158270741" duration="8349000" />
-      <workItem from="1604230326927" duration="7584000" />
+      <workItem from="1604230326927" duration="9041000" />
+      <workItem from="1604355308744" duration="2190000" />
     </task>
     <task id="LOCAL-00001" summary="update css">
       <created>1602709642251</created>
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604186101250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1homework">
+      <created>1604267378159</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604267378159</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +235,8 @@
     <MESSAGE value="js basic" />
     <MESSAGE value="ukrpravda" />
     <MESSAGE value="1-10 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-10 tasks" />
+    <MESSAGE value="1homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="1homework" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602706809110">
@@ -245,18 +255,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602707062751" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604186136095">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604267394567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604186136095" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604267394567" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604230407880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604230407880" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1604238113061">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604357012894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604238113061" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604357012894" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1602772685829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
