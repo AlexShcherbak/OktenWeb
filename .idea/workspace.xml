@@ -16,13 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="2homework">
+    <list default="true" id="95e38ad5-0d54-48ce-98bc-ad19e6afd3fe" name="Default Changelist" comment="1">
       <change afterPath="$PROJECT_DIR$/js/homework/js-4/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/homework/js-4/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/homework/js-5/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/homework/js-5/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/homework/js-3/task2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/homework/js-3/task2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,7 +107,7 @@
       <workItem from="1604693903550" duration="5329000" />
       <workItem from="1604747043468" duration="14661000" />
       <workItem from="1604836490095" duration="15320000" />
-      <workItem from="1604862548114" duration="7006000" />
+      <workItem from="1604862548114" duration="7217000" />
     </task>
     <task id="LOCAL-00001" summary="update css">
       <created>1602709642251</created>
@@ -208,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604865317286</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1">
+      <created>1604876184333</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604876184333</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +293,7 @@
     <MESSAGE value="homework &amp; classwork" />
     <MESSAGE value="third homework" />
     <MESSAGE value="homework - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework - 3" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
