@@ -2,87 +2,87 @@
 // создать 5 объектов. В каждом объекте не менее 3х полей. Все объекты разные по набору полей.
 // (Т.е поле name  должно присутствовать только 1 раз в одном объекте )
 
-let me = {
-    firstName: 'Oleksandr',
-    surname: 'Shcherbak',
-    status: false
-};
-
-let notebook = {
-    brand: 'Macbook',
-    model: 'pro',
-    screenSize: '15.6'
-};
-
-let cat = {
-    nick: 'Nick',
-    weight: 5,
-    sound: 'Meow'
-};
-
-let dog = {
-    name: 'Apple',
-    color: 'gray',
-    hasTail: true
-};
-
-let house = {
-    rooms: 3,
-    street: 'Vinnichenka 6',
-    floors: '2'
-};
-
-
-//----------------2----------------
-// создать 5 объектов с полностью разным набором полей.
-// В каждом объекте должен присутсвовать массив и внутренний объект
-
-let car = {
-    brand: {
-        name: 'Toyota',
-        country: 'Japan'
-    },
-    moder: 'Prado',
-    yearsOfManufacture: [1989, 1992, 1994, 1999, 2003],
-}
-
-let picture = {
-    title: 'Za bygrom',
-    author: {
-        firstName: 'Stepan',
-        surname: 'Napets'
-    },
-    country: 'Ireland',
-    prizesPlace: [2, 4, 1, 10, 3]
-};
-
-let phone = {
-    brand: 'Samsung',
-    model: 'A70',
-    madeIn: ['China', 'Japan', 'Australia'],
-    processor: {
-        usa: 'snapdragon',
-        eu: 'exynos',
-        china: 'mtk'
-    }
-};
-
-let pencil = {
-    color: ['blue', 'red', 'black'],
-    size: 10,
-    format: {
-        x: 'y',
-        z: 'c'
-    }
-};
-
-let windows = {
-    layers: [1, 2, 3, 4],
-    forms: {
-        square: [500, 500],
-        rectangle: [1000, 500]
-    }
-};
+// let me = {
+//     firstName: 'Oleksandr',
+//     surname: 'Shcherbak',
+//     status: false
+// };
+//
+// let notebook = {
+//     brand: 'Macbook',
+//     model: 'pro',
+//     screenSize: '15.6'
+// };
+//
+// let cat = {
+//     nick: 'Nick',
+//     weight: 5,
+//     sound: 'Meow'
+// };
+//
+// let dog = {
+//     name: 'Apple',
+//     color: 'gray',
+//     hasTail: true
+// };
+//
+// let house = {
+//     rooms: 3,
+//     street: 'Vinnichenka 6',
+//     floors: '2'
+// };
+//
+//
+// //----------------2----------------
+// // создать 5 объектов с полностью разным набором полей.
+// // В каждом объекте должен присутсвовать массив и внутренний объект
+//
+// let car = {
+//     brand: {
+//         name: 'Toyota',
+//         country: 'Japan'
+//     },
+//     moder: 'Prado',
+//     yearsOfManufacture: [1989, 1992, 1994, 1999, 2003],
+// }
+//
+// let picture = {
+//     title: 'Za bygrom',
+//     author: {
+//         firstName: 'Stepan',
+//         surname: 'Napets'
+//     },
+//     country: 'Ireland',
+//     prizesPlace: [2, 4, 1, 10, 3]
+// };
+//
+// let phone = {
+//     brand: 'Samsung',
+//     model: 'A70',
+//     madeIn: ['China', 'Japan', 'Australia'],
+//     processor: {
+//         usa: 'snapdragon',
+//         eu: 'exynos',
+//         china: 'mtk'
+//     }
+// };
+//
+// let pencil = {
+//     color: ['blue', 'red', 'black'],
+//     size: 10,
+//     format: {
+//         x: 'y',
+//         z: 'c'
+//     }
+// };
+//
+// let windows = {
+//     layers: [1, 2, 3, 4],
+//     forms: {
+//         square: [500, 500],
+//         rectangle: [1000, 500]
+//     }
+// };
 
 //----------------3----------------
 // При помощи for in вывести все ключи всех объектов из задания 1 и 2
@@ -369,17 +369,138 @@ let windows = {
 //     {name: 'olya', age: 28, status: false, skills: ['java', 'js']},
 //     {name: 'max', age: 30, status: true, skills: ['mysql', 'mongo']}
 // ];
-
+//                                                                                  //need to be redone
 // for (const user of users) {
-//     for (const userArray in user) {
-//         console.log(userArray);
+//     console.log(user);
+//     for (const userArray of users) {
+//         let userSkills = userSkills['skills'] + userArray['skills'];
+//         console.log(userSkills);
 //     }
 // }
 
+
+//---------------------------------------------------------------------
+
+let users = [{
+    name: 'vasya',
+    age: 31,
+    status: false,
+    address: {city: 'Lviv', country: 'Ukraine', street: 'Shevchenko', houseNumber: 1}
+}, {
+    name: 'petya',
+    age: 30,
+    status: true,
+    address: {city: 'New York', country: 'USA', street: 'East str', houseNumber: 21}
+}, {
+    name: 'kolya',
+    age: 29,
+    status: true,
+    address: {city: 'Budapest', country: 'Hungary', street: 'Kuraku', houseNumber: 78}
+}, {
+    name: 'olya',
+    age: 28,
+    status: false,
+    address: {city: 'Prague', country: 'Czech', street: 'Paster', houseNumber: 56}
+}, {
+    name: 'max',
+    age: 30,
+    status: true,
+    address: {city: 'Istanbul', country: 'Turkey', street: 'Mikar', houseNumber: 39}
+}, {
+    name: 'anya',
+    age: 31,
+    status: false,
+    address: {city: 'Rio', country: 'Brasil', street: 'Ronaldi', houseNumber: 5}
+}, {
+    name: 'oleg',
+    age: 28,
+    status: false,
+    address: {city: 'Montreal', country: 'Canada', street: 'Acusto', houseNumber: 90}
+}, {
+    name: 'andrey',
+    age: 29,
+    status: true,
+    address: {city: 'Quebeck', country: 'Canada', street: 'Binaro', houseNumber: 33}
+}, {
+    name: 'masha',
+    age: 30,
+    status: true,
+    address: {city: 'Moscow', country: 'Russia', street: 'Gogolia', houseNumber: 1}
+}, {
+    name: 'olya',
+    age: 31,
+    status: false,
+    address: {city: 'Portland', country: 'USA', street: 'Forest str', houseNumber: 4}
+}, {
+    name: 'max',
+    age: 31,
+    status: true,
+    address: {city: 'Cairo', country: 'Egypt', street: 'Seashore', houseNumber: 45}
+}];
+
+//----------------19----------------
+// З масиву users за допомогою циклу витягнути адреси користувачів і записати (скопіювати) їх в інший порожній масив.
+
+// let result = [];
+//
 // for (let i = 0; i < users.length; i++) {
-//     let user = users[i];
-//     console.log(user);
+//     result = users[i].address;
+//     console.log(result);
 // }
+
+//----------------or----------------
+
+// for (const user of users) {
+//     result.push(user.address);
+// }
+//
+// console.log(result);
+
+//----------------20----------------
+// За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement.
+// Всі данні в одному блоці.
+// for (let i = 0; i < users.length; i++) {
+//     const user = users[i];
+//     const div = document.createElement("div");
+//     let addressString = '';
+//     for (const addressKey in user.address) {
+//         addressString = addressString + ' ' + user.address[addressKey];
+//     };
+//     div.innerText = `${user.name} ${user.age} ${user.status} ${addressString}`;
+//     document.body.appendChild(div);
+// };
+
+
+//----------------21----------------
+// За допомоги циклу проітерувати  масив users,
+// записати кожного юзера в сівй блок за допомоги document.createElement,
+// розділивши всі властивості по своїм блокам (div>div*4)
+
+// for (let i = 0; i < users.length; i++) {
+//     const user = users[i];
+//     // const div = document.createElement("div");
+//     for (const userKey in user) {
+//         const div = document.createElement("div");                        // need to be redone
+//         let keyDiv = '';
+//         keyDiv = keyDiv + div;
+//         div.innerText = `${user.name} ${user.age}`;
+//         document.body.appendChild(div);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
