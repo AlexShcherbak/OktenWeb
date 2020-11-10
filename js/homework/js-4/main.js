@@ -12,7 +12,8 @@
 //
 //
 // ---------2---------
-// створити функцію яка заповнює масив рандомними числами та виводить його. Для виведення використати попвередню функцію.
+// створити функцію яка заповнює масив рандомними числами та виводить його.
+// Для виведення використати попвередню функцію.
 //
 //
 // function createArray (length, min, max) {
@@ -66,216 +67,102 @@
 // ---------5---------
 // створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
 
-
-// let length = [];
-
-// function arrayOfNumber(length, min, max) {
-//     for (let i = 0; i < length; i++) {
-//
+// function returnAndPrint () {
+//     let min = arguments[0];
+//     let max = arguments[0];
+//     for (const  argument of arguments) {
+//         if(argument < min) {
+//             min = argument;
+//         } else if ( argument > max) {
+//             max = argument;
+//         }
 //     }
-//     if (min < )
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-// const threeNumber = createArray(3, 0, 100);
-// console.log(threeNumber);
-//
-// const smallest =  arrToFind(array);
-// console.log(smallest)
-// function returnMin (a, b, c) {
-//     let min;
-//     let max;
-//
-//     if(a <= b && a <= c) min = a;
-//     if(b <= a && b <= c) min = b;
-//     if(c <= a && c <= b) min = c;
-//
-//     console.log(min);
-//     return min;
-//
+//     console.log(max);
+//     return(min);
 // }
 //
-// returnMin(44, 23, 35);
-//
-//
-// ---------5---------
-// створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
-//
-//
-// function createArray () {
-//    let min = arguments[0];
-//    let max = arguments[0];
-//
-//    for(const value of arguments) {
-//        if(min > value) {
-//            min = value;
-//        }
-//
-//        if(max < value) {
-//            max = value;
-//        }
-//    }
-//
-//    return(min);
-//
-// }
-//
-// console.log(createArray(9, 1, 12, 123, 23, 123));
-//
-//
+// const result = returnAndPrint(12, 42, 21, 422, 1,  123, 94, 35, 583, 9, 85);
+// console.log(result);
+
+
 // ---------6---------
 // створити функцію яка виводить масив
+
+// let array = [1, true, 2, 'hello', 'owu', false, 99];
 //
+// function printArray () {
+//     for (let i = 0; i < array.length; i++) {
+//         const arrayElement = array[i];
+//         console.log(arrayElement);
+//     }
+// };
 //
-// function f(arr){
-//     console.log(arr);
-//     return arr;
-// }
-//
-// const array = f([1,2 ,3 ,4 ,5]);
-//
-//
+// printArray(array);
+
+
 // ---------7---------
 // створити функцію яка повертає найбільше число з масиву
-//
-//
-// function createArray () {
-//    let min = arguments[0];
-//    let max = arguments[0];
-//
-//    for(const value of arguments) {
-//        if(min > value) {
-//            min = value;
-//        }
-//
-//        if(max < value) {
-//            max = value;
-//        }
-//    }
-//
-//     console.log(max)
+
+
+// const returnMaxNum = (array) => {
+//     let max = array[0];
+//     for (const max1 of array) {
+//         if (max < max1) max = max1;
+//     }
+//     return max;
 // }
+//
+// let s = returnMaxNum([1, 43, 52, 2, 12, 42])
+// console.log(s);
+
+
+// ---------8---------
+// створити функцію яка повертає найменьше число з масиву
+
+// const returnMinNum = (array) => {
+//     let min = array[0];
+//     for (const min1 of array) {
+//         if (min > min1) min = min1;
+//     }
+//     return min;
+// }
+//
+// let s = returnMinNum([5, 23, 2123, 53, 1, 3, 124, 4])
+// console.log(s);
 
 
 // ---------9---------
-// створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
-//
-//
-// function avarage(array) {
-//     let sum = 0;
-//     for (const arrayElement of array) {
-//         sum += arrayElement;
+// створити функцію яка приймає масив чисел та складає значення елементів масиву та повертає його.
+// function sum (array)  {
+//     let x = 0;
+//     for (const item of array) {
+//         x = x + item;
 //     }
-//     return sum/array.length;
+//     return x;
 // }
 //
-// const x = avarage([2, 2, 3, 4, 512, 2]);
-// console.log(x);
-//
-//
+// let result = sum([1, 2, 3, 4, 5]);
+// console.log(result);
+
+
 // ---------10---------
-// Створити функцію яка приймає масив будь яких объектів, та повертає значення кількості об'єктів в масиві
-//
-//
-// const people = [
-//     first = {
-//         name: 'Ivan',
-//         age: 22
-//     },
-//
-//     second = {
-//         name: 'Alex',
-//         age: 43
-//     },
-//
-//     third = {
-//         name: 'Andriy',
-//         age: 20
-//
-//     },
-//
-//     fourth = {
-//         name: 'Andriy',
-//         age: 20
-//
+// створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
+
+
+// function sum (array)  {
+//     let x = 0;
+//     for (const item of array) {
+//         x = x + item;
 //     }
-// ]
+//     return x/array.length;
+// }
 //
-// const getArrLength = (arr) => arr.length;
-// console.log(getArrLength(people));
-//
-//
+// let result = sum([1, 2, 3, 4, 5]);
+// console.log(result);
+
+
 // ---------11---------
-// Створити функцію яка приймає масив будь яких объектів, та повертає загальн кількість полів в них
-//
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Створити функцію яка приймає масив будь яких объектів, та повертає значення кількості об'єктів в масиві
 
 
 
