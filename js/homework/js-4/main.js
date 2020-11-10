@@ -1,4 +1,4 @@
-// ---------1---------
+``// ---------1---------
 // Створити функцію, яка виводить масив
 //
 //
@@ -18,7 +18,8 @@
 // function createArray (length, min, max) {
 //     let array = [];
 //     for (let i = 0; i < length; i++) {
-//         array.push(Math.floor(Math.random() * max));
+//         array.push(Math.floor(Math.random() * (max-min) + min
+//         ));
 //     }
 //     return array;
 // }
@@ -31,27 +32,100 @@
 // створити функцію яка приймає три числа та виводить та повертає найменьше.
 //
 //
-// let array = [];
-// function createArray (length, min, max) {
-//     // let array = [];
+// function min(a, b, c) {
+//     if (a < b && a < c) {
+//         return a;
+//     } else if (b < a && b < c){
+//         return b;
+//     } else {
+//         return c;
+//     }
+// }
+//
+// let s = min(23, 34, 5);
+// console.log(s);
+//
+//
+// ---------4---------
+// створити функцію яка приймає три числа та виводить та повертає найбільше.
+//
+// function max(a, b, c) {
+//     if (a >= b && a >= c) {
+//         return a;
+//     } else if (b >= a && b >= c){
+//         return b;
+//     } else {
+//         return c;
+//     }
+// }
+//
+// let s = max(2, 5, 222);
+// console.log(s);
+
+
+// ---------5---------
+// створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
+
+
+// let length = [];
+
+// function arrayOfNumber(length, min, max) {
 //     for (let i = 0; i < length; i++) {
-//         array.push(Math.floor(Math.random() * max));
+//
 //     }
-//     return array;
-//
+//     if (min < )
 // }
-//
-// function arrToFind (minNum) {
-//     let a = array.;
-//     for (let i = 0; i < minNum.length; i++) {
-//         if (array[i] < a) {
-//             minNum = a;
-//         }
-//     }
-//     return a;
-// }
-//
-//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 // const threeNumber = createArray(3, 0, 100);
 // console.log(threeNumber);
