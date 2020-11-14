@@ -35,36 +35,61 @@
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 
-let car = {
-    brand: 'Mazda',
-    model: 'RX7',
-    data: 2013,
-    maxSpeed: 280,
-    engineCapacity: 1.4,
-    driver: function () {
-        console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
-    },
-    info: function () {
-        // console.log(car);
-        console.log(`
-            brand: ${this.brand},
-            model: ${this.model},
-            data: ${this.data},
-            maxSpeed: ${this.maxSpeed},
-            engineCapacity: ${this.engineCapacity}
-        `)
-    },
-    increaseMaxSpeed: function (newSpeed) {
-        this.maxSpeed += newSpeed;
-    },
-    changeYear: function (newValue) {
-        this.data = newValue;
-    }
-};
+// let car = {
+//     brand: 'Mazda',
+//     model: 'RX7',
+//     data: 2013,
+//     maxSpeed: 280,
+//     engineCapacity: 1.4,
+//     driver: function () {
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
+//     },
+//     info: function () {
+//         // console.log(car);
+//         console.log(`
+//             brand: ${this.brand},
+//             model: ${this.model},
+//             data: ${this.data},
+//             maxSpeed: ${this.maxSpeed},
+//             engineCapacity: ${this.engineCapacity}
+//         `)
+//     },
+//     increaseMaxSpeed: function (newSpeed) {
+//         this.maxSpeed += newSpeed;
+//     },
+//     changeYear: function (newValue) {
+//         this.data = newValue;
+//     }
+// };
+//
+// let drivers = {name: 'Sasha Loser', age: 19};
+//
+// car.changeYear(2021);
+// car.increaseMaxSpeed(35);
+// car.info();
+// car.driver();
 
-let drivers = {name: 'Sasha Loser', age: 19};
 
-car.changeYear(2021);
-car.increaseMaxSpeed(35);
-car.info();
-car.driver();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
