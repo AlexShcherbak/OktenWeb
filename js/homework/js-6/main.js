@@ -119,21 +119,37 @@ let users = [
 // })
 // console.log(sortOfSymbolDown);
 
+
 // - пройтись по ньому та додати кожному юзеру поле id - яке характеризує унікальний індентифікатор
 // (По якому принципу його створювати - ваше рішення),
 // та зберегти це в новий масив (первинний масив залишиться без змін)
-// let userAddId = users.map(value => {
-//     return value + document.
+
+// let newArrayOfUsers = JSON.parse(JSON.stringify(users));
+//
+// let usersAddId = newArrayOfUsers.map((value, index) => {
+//     // value.id = index;
+//     value.id = Math.floor(Math.random() * 100); // але може співпасти id. як зробити, щоб такого не було - я поки що хз.
+//     return value;
+//
 // })
-
-
-
+//
+// console.log(users);
+// console.log(usersAddId);
 
 // - відсортувати його за індентифікатором
+// const sortForId = usersAddId.sort((a, b) => {
+//     if (a.id > b.id) {
+//         return -1;
+//     }
+// })
 //
-//
+// console.log(sortForId);
+
+
 // -- наисать функцию калькулятора с 2мя числами и колбеком
 // -- наисать функцию калькулятора с 3мя числами и колбеком
+
+
 
 
 
