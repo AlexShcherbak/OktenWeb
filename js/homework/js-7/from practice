@@ -131,6 +131,21 @@
 
 
 
+/ - Створити функцію, яка генерує таблицю.
+//     Перший аргумент визначає кількість строк.
+//     Другий параметр визначає кліькіть ячеєк в кожній строці.
+//     Третій параметр визначає елемент в який потрібно таблицю додати.
+
+    //
+    //
+    // function createTable(tr, th, element) {
+    //     const table = document.createElement('table');
+    //     document.body.appendChild(table);
+    //     for (let i = 0; i < arguments.length; i++) {
+    //         document.createElement(tr);
+    //         table.appendChild(i);
+    //     }
+    // }
 
 
 
