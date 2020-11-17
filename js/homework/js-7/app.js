@@ -53,7 +53,19 @@
 
 // Создайте меню, которое раскрывается/сворачивается при клике
 
-
+// const btn = document.querySelector('#hideBtn');
+// const subMenu = document.querySelector('#sub-menu');
+//
+// let status = false;
+// btn.onclick = () => {
+//     if(!status) {
+//         subMenu.style.display = 'none';
+//         status = true;
+//     } else {
+//         subMenu.style.display = 'block';
+//         status = false;
+//     }
+// };
 
 
 
