@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<!--<div >-->
+<!--    <button id="hideBtn">Hide</button>-->
+<!--    <ul id="sub-menu">-->
+<!--        <li>Lorem</li>-->
+<!--        <li>Ipsum</li>-->
+<!--        <li>Merol</li>-->
+<!--        <li>Muspi</li>-->
+<!--    </ul>-->
+<!--</div>-->
+
+
+<!--<form action="">-->
+<!--    <input type="text">-->
+<!--    <input type="text">-->
+<!--</form>-->
+
+<!--<form action="">-->
+<!--    <input type="text">-->
+<!--    <input type="text">-->
+<!--</form>-->
+
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+// ------------------------------------------------------JS------------------------------------------------------------
+
+// Создайте меню, которое раскрывается/сворачивается при клике
+
+// const btn = document.querySelector('#hideBtn');
+// const subMenu = document.querySelector('#sub-menu');
+//
+// let status = false;
+// btn.onclick = () => {
+//     if(!status) {
+//         subMenu.style.display = 'none';
+//         status = true;
+//     } else {
+//         subMenu.style.display = 'block';
+//         status = false;
+//     }
+// };
+
+
+
+// Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
+//     Вывести список комментариев в документ, каждый в своем блоке.
+//     Добавьте каждому комментарию по кнопке для сворачивания его body.
+
+
+// let comments =  [
+//     {
+//         title: 'lorem',
+//         body: 'lopem ipsum dolo sit ameti'
+//     }
+// ];
+//
+// let x = '';
+//
+// for (const comment in comments) {
+//     x += comment;
+// }
+//
+// console.log(x);
+//
+// let btn = document.createElement('button');
+// btn.style.backgroundColor = '#FF7C57'
+// btn.innerText = 'hide'
+// document.body.appendChild(btn);
+//
+// let createDiv = document.createElement('div');
+// document.body.appendChild(createDiv);
+// createDiv.innerText = x.title;
+//
+// let div = document.createElement('div');
+// div.innerText = 'lopem ipsum dolo sit ameti';
+// createDiv.appendChild(div);
+//
+// let status = false;
+//
+// btn.onclick = () => {
+//     if (!status) {
+//         div.style.display = 'none';
+//         status = true;
+//     } else {
+//         div.style.display = 'block';
+//         status = false;
+//     }
+// }
+
+
+
+// створити 2 форми  по 2 інпути в кожній. ствоирити кнопку при кліку на яку считується
+// та виводиться на консоль інформація з цих 2х форм.
+// Кнопка повинна лежати за межами форм (Щоб ьуникнути  перезавантаження сторінки)
+// Доступ до інпутів через Forms API. Отже дайте формі та інпутам всі необхідні атрибути.
+
+//
+// const button = document.createElement('button');
+// button.innerText = 'Check console';
+// document.body.appendChild(button);
+//
+// let inputs = document.getElementsByTagName('input')
+//
+// let item = '';
+//
+// for (const input of inputs) {
+//     item += input;
+// }
+//
+// console.log(item);
+//
+//
+// button.onclick = () => {
+//     console.log(item.value);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
