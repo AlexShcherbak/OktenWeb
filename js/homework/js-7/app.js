@@ -69,5 +69,102 @@
 
 
 
+// Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
+//     Вывести список комментариев в документ, каждый в своем блоке.
+//     Добавьте каждому комментарию по кнопке для сворачивания его body.
+
+
+// let comments =  [
+//     {
+//         title: 'lorem',
+//         body: 'lopem ipsum dolo sit ameti'
+//     }
+// ];
+//
+// let x = '';
+//
+// for (const comment in comments) {
+//     x += comment;
+// }
+//
+// console.log(x);
+//
+// let btn = document.createElement('button');
+// btn.style.backgroundColor = '#FF7C57'
+// btn.innerText = 'hide'
+// document.body.appendChild(btn);
+//
+// let createDiv = document.createElement('div');
+// document.body.appendChild(createDiv);
+// createDiv.innerText = x.title;
+//
+// let div = document.createElement('div');
+// div.innerText = 'lopem ipsum dolo sit ameti';
+// createDiv.appendChild(div);
+//
+// let status = false;
+//
+// btn.onclick = () => {
+//     if (!status) {
+//         div.style.display = 'none';
+//         status = true;
+//     } else {
+//         div.style.display = 'block';
+//         status = false;
+//     }
+// }
+
+
+
+// створити 2 форми  по 2 інпути в кожній. ствоирити кнопку при кліку на яку считується
+// та виводиться на консоль інформація з цих 2х форм.
+// Кнопка повинна лежати за межами форм (Щоб ьуникнути  перезавантаження сторінки)
+// Доступ до інпутів через Forms API. Отже дайте формі та інпутам всі необхідні атрибути.
+
+//
+// const button = document.createElement('button');
+// button.innerText = 'Check console';
+// document.body.appendChild(button);
+//
+// let inputs = document.getElementsByTagName('input')
+//
+// let item = '';
+//
+// for (const input of inputs) {
+//     item += input;
+// }
+//
+// console.log(item);
+//
+//
+// button.onclick = () => {
+//     console.log(item.value);
+// }
+
+
+
+// - Створити функцію, яка генерує таблицю.
+//     Перший аргумент визначає кількість строк.
+//     Другий параметр визначає кліькіть ячеєк в кожній строці.
+//     Третій параметр визначає елемент в який потрібно таблицю додати.
+
+
+// function createTable(tr, td, element) {
+//     const table = document.createElement('table');
+//     document.body.appendChild(table);
+//     for (let i = 0; i < tr; i++) {
+//         const tr = document.createElement('tr');
+//         for (let j = 0; j < td; j++) {
+//             const td = document.createElement('td');
+//             td.innerHTML = i.toString() + j.toString();
+//             tr.appendChild(td);
+//         }
+//         table.appendChild(tr);
+//     }
+//     element.appendChild(table);
+// }
+//
+// let i = 0;
+// createTable(5, 10, i++);
 
 
