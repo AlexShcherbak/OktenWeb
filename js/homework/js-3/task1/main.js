@@ -174,14 +174,15 @@ console.log(idRules.classList);
 
 //отримати всі елементи з класом fc_rules
 let classRules = document.getElementsByClassName('fc_rules');
-for (let i = 0; i < classRules.length; i++) {
-    let rulesElement = classRules[i];
-    rulesElement.style.color = '#e370ff'         //поміняти колір тексту у всіх елементів fc_rules на червоний
-    console.log(rulesElement);
+// for (let i = 0; i < classRules.length; i++) {
+//     let rulesElement = classRules[i];
+//     rulesElement.style.color = '#e370ff'         //поміняти колір тексту у всіх елементів fc_rules на червоний
+//     console.log(rulesElement);
 }
 //--------------or---------------
 // отримати всі елементи з класом fc_rules
 console.log(classRules);
+
 
 
 

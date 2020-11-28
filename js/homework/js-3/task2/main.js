@@ -476,19 +476,13 @@ let users = [{
 // записати кожного юзера в сівй блок за допомоги document.createElement,
 // розділивши всі властивості по своїм блокам (div>div*4)
 
-// for (let i = 0; i < users.length; i++) {
-//     const user = users[i];
-//     // const div = document.createElement("div");
-//     for (const userKey in user) {
-//         const div = document.createElement("div");                        // need to be redone
-//         let keyDiv = '';
-//         keyDiv = keyDiv + div;
-//         div.innerText = `${user.name} ${user.age}`;
-//         document.body.appendChild(div);
-//     }
-// }
+for (let i = 0; i < users.length; i++) {
+    const user = users[i];
+    const div = document.createElement('div');
+    document.body.appendChild(div);
+    div.textContent = JSON.stringify(user);
 
-
+}
 
 
 
